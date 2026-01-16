@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class ConectionFactory {
+public class ConnectionFactory {
 
     public Connection getConnection(){
          String url = "jdbc:postgresql://localhost:5432/curso_db";
